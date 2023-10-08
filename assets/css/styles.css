@@ -1,0 +1,19 @@
+.logo{
+    display: flex;
+    justify-content: center;
+    border: none;
+    width: 250px;
+    height: 250px;
+    
+}
+
+.carrito{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.resultado{
+    display: flex;
+    justify-content: center;
+}

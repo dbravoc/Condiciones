@@ -1,11 +1,51 @@
 <head>
     <title>Condiciones</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 
 <body>
+    <h3>Punto 1: Verificar Password</h3>
     <div>
-       <img class="logo" id="LwT" src="assets/Logo LwT.png" alt="Logo">
+        <img class="logo" id="LwTImage" src="assets/images/Logo LwT.png" alt="Logo">
     </div>
+    <h3>Punto 2: Verificar Password</h3>
+    <div class="carrito">
+    <div>
+       <img class="logo" id="LwTImage" src="assets/images/Logo LwT.png" alt="Logo">
+       <label for="LwT"></label>
+       <input type="number" id="LwT" min="0" max="10">
+    </div>
+    <div>
+        <img class="logo" id="IGImage" src="assets/images/instagram.avif" alt="Logo">
+        <label for="IG"></label>
+       <input type="number" id="IG" min="0" max="10">
+     </div>
+     <div>
+        <img class="logo" id="LinkedinImage" src="assets/images/Linkedin.avif" alt="Logo">
+        <label for="Linkedin"></label>
+       <input type="number" id="Linkedin" min="0" max="10">
+     </div>
+    </div>
+    <div class="resultado">
+    <button onclick="calcularCantidad()">Calcular</button>
+    <p id="resultado"></p>
+    </div>  
+   
+
+    <div>
+            <h3>Punto 3: Verificar Password</h3>
+            <label for="passwordSelect">Selecciona un password:</label>
+            <input type="number" id="A" min="0" max="9">
+            <input type="number" id="B" min="0" max="9">
+            <input type="number" id="C" min="0" max="9">
+
+            <button onclick="verificarPassword()">Ingresar</button>
+            <p id="resultado_pass"></p>
+    </div>
+
+
+    <script src="punto1.js"></script>
+    <script src="punto2.js"></script>
+    <script src="punto3.js"></script>
 </body>
 
-<script src="punto1.js"></script>

@@ -1,4 +1,4 @@
-const imagen = document.getElementById("LwT");
+const imagen = document.getElementById("LwTImage");
 let bordeActivo = false;
 
 function ActivarBorde() {
